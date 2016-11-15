@@ -16,6 +16,9 @@
     "url": "https://github.com/pillowfication/moo/issues"
   },
   "main": "index.js",
+  "bin": {
+    "moo": "bin/moo.js"
+  },
   "devDependencies": {
     "babel-preset-es2015": "^6.18.0",
     "babelify": "^7.3.0",
