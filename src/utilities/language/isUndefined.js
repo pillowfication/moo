@@ -1,10 +1,5 @@
 import isEqual from './isEqual';
-
-function getGlobalUndefined() {
-  return;
-}
-
-const GLOBAL_UNDEFINED = getGlobalUndefined();
+import { GLOBAL_UNDEFINED } from './constants';
 
 export default function isUndefined(value) {
   if (isEqual(value, GLOBAL_UNDEFINED)) {

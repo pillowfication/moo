@@ -1,3 +1,4 @@
+import add from '../../math/arithmetic/add';
 import Letter from './letter';
 import { FIRST_LETTER } from '../../constants';
 import { A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z } from './relativeLetterCodes';
@@ -6,7 +7,7 @@ import { getCharacterCodeFromCharacter } from '../../utilities/characterAndChara
 const FIRST_LETTER_CHARACTER_CODE = getCharacterCodeFromCharacter(FIRST_LETTER);
 
 function getAbsoluteLetterCode(relativeLetterCode) {
-  const absoluteLetterCode = FIRST_LETTER_CHARACTER_CODE + relativeLetterCode;
+  const absoluteLetterCode = add(FIRST_LETTER_CHARACTER_CODE, relativeLetterCode);
   return absoluteLetterCode;
 }
 
