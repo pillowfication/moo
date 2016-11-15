@@ -1,4 +1,4 @@
-import stringConcatenate from '../../utilities/stringConcatenate';
+import stringConcatenate from '../../utilities/string/stringConcatenate';
 
 export default class Word {
   constructor(...letters) {

@@ -1,4 +1,4 @@
-import isUndefined from './isUndefined';
+import isUndefined from '../language/isUndefined';
 
 const nativeStringConcatenate = String.prototype.concat;
 const nativeArrayJoin = Array.prototype.join;
